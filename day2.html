@@ -47,23 +47,29 @@
 
         </table>
         <p></p>
-        <p></p>
-        <p></p>
+        <p id="firstpara">Unique Paragraph ID</p> 
+        <p class="firstcl">First unique class paragraph</p>
 <hr>
-    <h1 class="Question">What is your favorite color?</h1>
+    <form>
+            <label for="aname">Enter a name</label>
+            <label type="text" placeholder="words" id="name" name="a_name" required>
+            <label for="range">What is your range?</label>
+            <input type="range" id="range" min="0" max="100" name="range"> <label for="email">What is your email?</label>
+            <input type="email" id="email" name="email">
+            <label for="date">Pick a date. </label> <input type="date" id="date" name="date">
 
-        <form>
+        <h1 class="Question">What is your favorite color?</h1>
+
             <input type="radio" id="Blue" name="color" value="Blue">
             <label for="Blue">Blue</label><br>
             <input type="radio" id="Purple" name="color" value="Purple">
             <label for="Purple">Purple</label><br>
             <input type="radio" id="Black" name="color" value="Black">
             <label for="Black">Black</label><br>
-        </form>
+        
     
     <H1 class="Question" >What are your favorite foods?</H1>
     
-    <form>
         <input type="checkbox" id="Food" name="peas"> Sweet Peas </label>
         <input type="checkbox" id="Food" name="Raman"> Raman </label>
         <input type="checkbox" id="Food" name="Bell Pepper"> Bell Pepper </label>
@@ -77,12 +83,15 @@
 
 
 
-
+<br>
         <form action="/action_page.php" method="get">
             <label for="fname">First name:</label>
             <input type="text" id="fname" name="fname"><br><br>
             <label for="lname">Last name:</label>
             <input type="text" id="lname" name="lname"><br><br>
+            <input type="submit" value="Submit">
+            <label for="EMail"> EMail:</label>
+            <input type="text" id="EMail" name="EMail"><br><br>
             <input type="submit" value="Submit">
           </form>
 </body>
