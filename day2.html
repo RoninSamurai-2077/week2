@@ -42,12 +42,16 @@
 <hr>
 <div id="mydiv">
     <h1 class="Question">What is your favorite color?</h1>
-        <p class="Input">
-            <input type="text" id="myresponse">
-            <br><input type="button" id="showresponse" value="Show Response">
-            <input type="button" id="removeresponse" value="Remove Response">
-        </p>
+        <form>
+            <input type="radio" id="Blue" name="color" value="Blue">
+            <label for="Blue">Blue</label><br>
+            <input type="radio" id="Purple" name="color" value="Purple">
+            <label for="Purple">Purple</label><br>
+            <input type="radio" id="Black" name="color" value="Black">
+            <label for="Black">Black</label><br>
+        </form>
     <H1 class="Question" >What are your favorite foods?</H1>
+    <form>
         <input type="checkbox" id="Food" name="peas"> Sweet Peas </label>
         <input type="checkbox" id="Food" name="Raman"> Raman </label>
         <input type="checkbox" id="Food" name="Bell Pepper"> Bell Pepper </label>
@@ -57,7 +61,7 @@
         <input type="checkbox" id="Food" name="Yams"> Yams </label>
         <input type="checkbox" id="Food" name="Apples"> Apples </label>
         <input type="checkbox" id="Food" name="Belgian Waffles & Chicken"> Belgian Waffles & Chicken </label>
-
+    </form>
 
 
 
