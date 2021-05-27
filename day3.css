@@ -1,6 +1,18 @@
 
-
-
+#red{
+    color: red;
+  }
+.green{
+    color:mediumseagreen ;
+}
+{   color: orange ;
+}
+.big{
+    font-size: 25px; line-height: 30px;
+}
+.bold{
+    font-weight: bold;
+}
 /* 4) In your "day3.css" file create a selector that selects an element with the id of red
 - The declaration block should have a declaration to set the color of the text to "orangered" or any orange
 color you like
