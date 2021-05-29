@@ -2,17 +2,33 @@
 #red{
     color: red;
   }
+#cool-font{
+    font-family: fantasy; color: black ;
+}
 .green{
     color:mediumseagreen ;
 }
-{   color: orange ;
-}
+
 .big{
     font-size: 25px; line-height: 30px;
 }
 .bold{
     font-weight: bold;
 }
+div{ height: 100px; width: 100px;
+}
+.box-1{
+    background-color: firebrick;
+}
+.box-2{ background-color: rgb(58, 153, 231);
+
+}
+body{
+    background-color: #333;
+}
+p.groove {border-style: groove; border-radius: 25px; color: steelblue;border-width: 3px;}
+.img{background-image: url(https://i.ytimg.com/vi/H79aBKVn1Q8/maxresdefault.jpg)
+
 /* 4) In your "day3.css" file create a selector that selects an element with the id of red
 - The declaration block should have a declaration to set the color of the text to "orangered" or any orange
 color you like
@@ -40,7 +56,3 @@ BONUS: Include a google font
 - The background should cover the entire height and width of the div
 
 Please let me know if you have any questions! There is an image attached below of the resulting page. */
-p {
-    color: red;
-  }
-  
