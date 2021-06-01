@@ -27,32 +27,6 @@ body{
     background-color: #333;
 }
 p.groove {border-style: groove; border-radius: 25px; color: steelblue;border-width: 3px;}
-.img{background-image: url(https://i.ytimg.com/vi/H79aBKVn1Q8/maxresdefault.jpg)
-
-/* 4) In your "day3.css" file create a selector that selects an element with the id of red
-- The declaration block should have a declaration to set the color of the text to "orangered" or any orange
-color you like
-5) Create a selector to select all elements with the class of green
-- Write a declaration to set the color of the text to "mediumseagreen" or any green color you like
-6) Create a selector to select all elements with the class of "big"
-- Write a declaration to set the font size to 25 pixels and the line height to 30 pixels
-7) Create a selector to select all elements with the class of "bold"
-- Write a declaration to set make the text bold
-8) Create a selector to select all div elements
-- Write a declaration that sets the height & width to 100 pixels
-9) Create a selector to select all elements with the class of "box-1" to have a background color of "firebrick" or any red color your like
-10) Create a selector to select all elements with the class of "box-2" to have a background color of "steelblue" or any blue color you like
-11) Create a selector to select the body element, write a declaration to set the background color to "darkgray" (I used "#333" in the example below) and the color of the text to "white"
-12) Create a selector to select an element with the id of "cool-font"
-- Set the font to something OTHER than "Times New Roman" or "Serif"
-BONUS: Include a google font
-13) Create a selector to select an element with the class of "border"
-- Set the border to be a 3 pixel wide, solid, steelblue border
-- Give it some border radius (I used 25px below)
-14) Create a selector to select all elements with the class of "img"
-- Set the background to an image you find somewhere on the internet (I used: https://www.extremetech.com/wp-content/uploads/2014/04/bliss-windows-xp-original-640x514.jpg)
-- The background should NOT repeat
-- The background should be centered
-- The background should cover the entire height and width of the div
-
-Please let me know if you have any questions! There is an image attached below of the resulting page. */
+.img{background-image: url(https://i.ytimg.com/vi/H79aBKVn1Q8/maxresdefault.jpg);     background-position: center; 
+        background-repeat: no-repeat; 
+    background-size: cover;height: 500px;}
